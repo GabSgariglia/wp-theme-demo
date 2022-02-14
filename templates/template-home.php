@@ -40,15 +40,7 @@
             <?php endif;?>
             </section>
             <section class="quart sidebar">
-                <article>
-                    <h3>Sidebar</h3>
-                    <div class="widget-container">
-                        <!-- widget -->
-                    </div>
-                    <div class="widget-container">
-                        <!-- widget -->
-                    </div>
-                </article>
+                <?php get_sidebar(  )?>
             </section>
         </div>
 
